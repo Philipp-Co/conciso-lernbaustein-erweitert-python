@@ -1,3 +1,4 @@
 twine
 build
 django
+django-skillprofil

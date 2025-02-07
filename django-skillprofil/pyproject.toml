@@ -4,9 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-skillprofil"
-version = "0.2"
+version = "0.4"
 dependencies = [
     "django>=5.0",
+    "drf_spectacular>=0.28.0",
+    "djangorestframework>=3.15.2",
+    "djangorestframework_simplejwt>=5.4.0"
 ]
 description = "A Django app to organize skillprofiles."
 readme = "README.rst"

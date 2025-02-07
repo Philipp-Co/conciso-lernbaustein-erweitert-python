@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,python,windows,visualstudiocode,vim,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,python,windows,visualstudiocode,vim,macos
 
+django-skillprofil/dist/*
+django-skillprofil/django_skillprofil.egg-info/*
+
 docker/keycloak/*
 
 ## docker volume mapping
