@@ -3,7 +3,6 @@
 In diesem Repository lieg Beispielcode fuer einen erweiterten Lernbaustein zum Thema Python.
     - Erstellen eines Wiederverwendbaren Django-App
     - Packetieren und Hochladen in ein Packet-Repository
-    - Erstellen eines One-File-Executables
     - Erstellen eines Dockerimages
 
 ## Erstellen eines importierbaren Pythonpackets
@@ -55,14 +54,13 @@ Die Django-App django-skillprofil ist hier als externes Packet ueber die require
     ./manage.py migrate --settings lep.setting
     ./manage.py runserver 0.0.0.0:8000 --settings lep.settings
 
-### One-File-Executable
-
-TBD
-
 ### Docker
 
 TBD
+    - staged builds
+    - alpine image
 
 ## Packete Komprimieren
 
 TBD
+    - https://pypi.org/project/python-minifier/
